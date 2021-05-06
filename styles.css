@@ -1,0 +1,18 @@
+nav {
+    background-image: url('logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: black;
+    border-style:ridge;
+
+}
+
+span.html-red {
+    color: red;
+}
+
+span.css-blue {
+    color: blue;
+}
+
