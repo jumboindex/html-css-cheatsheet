@@ -22,7 +22,7 @@ table, td, th {
     color: purple;
 }
 
-td.code {
+td.code, code  {
     color: green;
     background-color: beige;
     font-style: italic;
