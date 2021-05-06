@@ -1,11 +1,32 @@
+h1, h2, h3, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+body {
+    background-color: gainsboro;
+}
 nav {
     background-image: url('logo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     border: black;
-    border-style:ridge;
+    border-style:groove;
 
+}
+
+table, td, th {
+    border: lightblue;
+    border-style: solid;
+    font-family: fantasy;
+    color: purple;
+}
+
+td.code {
+    color: green;
+    background-color: beige;
+    font-style: italic;
+    font-family: monospace;
 }
 
 span.html-red {
@@ -16,3 +37,16 @@ span.css-blue {
     color: blue;
 }
 
+div.HTML-header {
+    background-image: url('HTML\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 22% 78%;
+}
+
+div.css-header {
+    background-image: url('css\ logo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 21% 79%;
+}
